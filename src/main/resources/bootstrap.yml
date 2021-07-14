@@ -1,0 +1,13 @@
+server:
+   port: 8089
+   error:
+      include-message: always
+      include-binding-erros: always
+
+spring:
+  application:
+    name: ms-coin
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:tSJKvHQlyhdcAFHh@cluster0.pwzlu.mongodb.net/bank?retryWrites=true&w=majority
+      

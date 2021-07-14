@@ -24,8 +24,8 @@ public class Coin {
 	  private String name;
 
 	  @Field(name = "numberBuy")
-	  private String numberBuy;
+	  private Double numberBuy;
 	  
 	  @Field(name = "numberSell")
-	  private String numberSell;
+	  private Double numberSell;
 }
